@@ -9,14 +9,14 @@ winery = []
 province = []
 country = []
 
-def getValues(map):
-    liked.append(random.randint(0,1))
-    price.append(map['price'])
-    points.append(int(map['points']))
-    variety.append(map['variety'])
-    winery.append(map['winery'])
-    province.append(map['province'])
-    country.append(map['country'])
+# def getValues(map):
+#     liked.append(random.randint(0,1))
+#     price.append(map['price'])
+#     points.append(int(map['points']))
+#     variety.append(map['variety'])
+#     winery.append(map['winery'])
+#     province.append(map['province'])
+#     country.append(map['country'])
 
 with open('originalWineData.json') as json_data:
     wineData = json.load(json_data)
