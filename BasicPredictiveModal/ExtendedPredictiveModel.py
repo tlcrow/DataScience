@@ -3,6 +3,7 @@ from cleaningWineData import *
 import pandas as pd
 import json
 
+#In progress
 
 #create empty data frame
 wine_df = pd.DataFrame()
